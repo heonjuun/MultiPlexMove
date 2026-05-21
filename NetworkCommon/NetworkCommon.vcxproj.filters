@@ -39,6 +39,24 @@
     <ClInclude Include="GameMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C2S_login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_Spawn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_Destroy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NetworkCommon.cpp">
@@ -63,6 +81,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C2S_login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S2C_Spawn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S2C_Destroy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C2S_Move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S2C_Move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S2C_login.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

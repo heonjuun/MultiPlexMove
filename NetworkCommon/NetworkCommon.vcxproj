@@ -135,6 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="C2S_Move.h" />
     <ClInclude Include="ChatPacket.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameMap.h" />
@@ -143,8 +144,14 @@
     <ClInclude Include="Packet.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="PositionPacket.h" />
+    <ClInclude Include="S2C_Destroy.h" />
+    <ClInclude Include="C2S_login.h" />
+    <ClInclude Include="S2C_login.h" />
+    <ClInclude Include="S2C_Move.h" />
+    <ClInclude Include="S2C_Spawn.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C2S_Move.cpp" />
     <ClCompile Include="ChatPacket.cpp" />
     <ClCompile Include="GameMap.cpp" />
     <ClCompile Include="MovePacket.cpp" />
@@ -158,6 +165,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="PositionPacket.cpp" />
+    <ClCompile Include="S2C_Destroy.cpp" />
+    <ClCompile Include="C2S_login.cpp" />
+    <ClCompile Include="S2C_login.cpp" />
+    <ClCompile Include="S2C_Move.cpp" />
+    <ClCompile Include="S2C_Spawn.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
